@@ -4,7 +4,7 @@
   "description": "SCRIPT BOT WA BY RYOFC ",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npm i -g pm2 && pm2 index.js && pm2 save && pm2 logs"
   },
   "author": "XFAC",
   "license": "MIT",
@@ -70,7 +70,7 @@
     "moment-timezone": "^0.5.43",
     "ms": "^2.1.3",
     "multistream": "^2.1.0",
-    "mumaker": "^1.0.0"
+    "mumaker": "^1.0.0",
     "npm": "^11.3.0",
     "node-cache": "^5.1.2",
     "node-cron": "^3.0.0",
